@@ -32,11 +32,11 @@ module.exports = {
   datastores: {
     'sqlserver': {
       adapter: 'sails-sqlserver',
-      user: 'gtitravelmc',
+      user: 'carlkohler',
       password: 'GTI1358ck',
-      host: 'SQLMC.DATABASE.WINDOWS.NET',
+      host: 'SQLMCDEV.DATABASE.WINDOWS.NET',
       port: 1433,
-      database: 'SQLMCDB',
+      database: 'SQLMCDB_PREPROD',
       options: {
         encrypt: true
       }
@@ -332,7 +332,7 @@ module.exports = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  // port: 80,
+  port: 1340,
 
 
 
